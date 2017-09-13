@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SPA Starter</title>
+		<!--
+        	作者：1929840564@qq.com
+        	时间：2017-01-24
+        	描述：Stylesheets
+        -->
+        <link rel="stylesheet" href="css/spa.css" type="text/css" />
+        <link rel="stylesheet" href="css/spa.shell.css" type="text/css"/>
+        <link rel="stylesheet" href="css/spa.chat.css" type="text/css"/>
+        <!--
+        	作者：1929840564@qq.com
+        	时间：2017-01-24
+        	描述：Third-party js
+        -->
+        <script type="text/javascript" src="js/jq/jquery-2.1.0.js" ></script>
+        <script type="text/javascript" src="js/jq/jquery.uniAnchor.js" ></script>
+
+        <!--
+        	作者：1929840564@qq.com
+        	时间：2017-01-24
+        	描述：our js
+        -->
+        <script type="text/javascript" src="js/spa.js" ></script>
+        <script type="text/javascript" src="js/spa.shell.js" ></script>
+        <script type="text/javascript" src="js/spa.util.js"></script>
+        <script type="text/javascript" src="js/spa.chat.js"></script>
+        <script type="text/javascript" src="js/spa.model.js"></script>
+        <script>
+        	$(function(){spa.initModule($('#spa'));});
+        </script>
+	</head>
+	<body>
+		<div id='spa'></div>
+	</body>
+</html>
